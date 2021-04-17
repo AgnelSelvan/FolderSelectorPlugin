@@ -1,15 +1,27 @@
-# folder_selector
+# Folder Selector
 
-Folder Selector Plugin
+[![pub_package](https://img.shields.io/pub/v/folder_selector?color=green)](https://pub.dev/packages/folder_selector)
 
-## Getting Started
+A new Flutter Plugin for selecting Folder in Android and IOS
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+![Screenshot](1.jpeg)  ![Screenshot](2.jpeg) ![Screenshot](3.jpeg) ![Screenshot](4.jpeg) ![Screenshot](5.jpeg) ![Screenshot](5.jpeg) ![Screenshot](6.jpeg) 
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Usage
 
+A File Selector Page is Available 
+On Selecting a folder return the path as String Format
+```dart
+import 'package:folder_selector/folder_selector.dart';
+String path = await Navigator.of(context).push<String>(MaterialPageRoute(builder: (context) => FolderSelector(rootDir: rootDir,) ));
+```
+
+## Parameters
+- **rootDir** `Directory` *required* : To start from which Directory the path has to be selected
+- **title** `String` : Title of the Folder Selector Page
+
+## Permissions
+
+```xml
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+```
