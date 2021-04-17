@@ -4,7 +4,7 @@
 
 A new Flutter Plugin for selecting Folder in Android and IOS
 
-![Screenshot](1.jpeg)  ![Screenshot](2.jpeg) ![Screenshot](3.jpeg) ![Screenshot](4.jpeg) ![Screenshot](5.jpeg) ![Screenshot](5.jpeg) ![Screenshot](6.jpeg) 
+![Screenshot](./outputs/1.jpeg)  ![Screenshot](./outputs/2.jpeg) ![Screenshot](./outputs/3.jpeg) ![Screenshot](./outputs/4.jpeg) ![Screenshot](./outputs/5.jpeg) ![Screenshot](./outputs/5.jpeg) ![Screenshot](./outputs/6.jpeg) 
 
 ## Usage
 
